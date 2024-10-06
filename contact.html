@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Christo Sajy, MCA Student at MACFAST">
+    <meta name="keywords" content="Christo Sajy, portfolio, MCA, MACFAST, web development">
+
+    <!-- Link to custom font styles -->
+    <link rel="stylesheet" href="css/custom/fonts.css">
+
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" type="text/css">
+
+    <!-- Link to main custom styles -->
+    <link rel="stylesheet" href="css/custom/style.css">
+    
+    <title>Christo Sajy - Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="images/xp-bl-I.png" alt="Logo"></a></li>
+                <li><a href="index.html" class="open-sans-display" aria-label="Home">Home</a></li>
+                <li><a href="about.html" class="open-sans-display" aria-label="About">About</a></li>
+                <li><a href="projects.html" class="open-sans-display" aria-label="Projects">Projects</a></li>
+                <li><a href="skills.html" class="open-sans-display" aria-label="Skills">Skills</a></li>
+                <li><a href="contact.html" class="open-sans-display" aria-label="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero contact-hero">
+        <div class="container contact-grid mt-5">
+            <h2 class="play-bold text-left mb-4">Contact Me</h2>
+            <form action="process_form.php" method="POST" class="needs-validation" novalidate>
+                <div class="form-group my-2">
+                    <label for="name" class="playwrite-de-grund-display mb-2">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required aria-label="Enter your name">
+                    <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+
+                <div class="form-group my-2">
+                    <label for="email" class="playwrite-de-grund-display mb-2">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required
+                        aria-label="Enter your email">
+                    <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+
+                <div class="form-group my-2">
+                    <label for="message" class="playwrite-de-grund-display mb-2">Message:</label>
+                    <textarea id="message" name="message" class="form-control" rows="4" required
+                        aria-label="Enter your message"></textarea>
+                    <div class="invalid-feedback">Please enter your message.</div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block mt-3 mb-5">Send</button>
+            </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <p class="open-sans-display">&copy; 2024 Christo Sajy</p>
+    </footer>
+</body>
+
+</html>

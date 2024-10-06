@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /* background: url("../images/b1.jpg");  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background: #1E2761;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin-right: 5%;
+    padding-top: 10px;
+    padding-bottom: -10px;
+}
+
+header nav ul li img {
+    float: left;
+    margin-left: 10%;
+    margin-top: -10px;
+    width: 60px;
+    height: 50px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    width: 100%;
+    height: 450px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.hero .hero-accord {
+    height: 300px;
+    width: 500px;
+    margin: 50px 0;
+    /* background-color: #b1b1b1; */
+    padding: 50px 30px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-accord h1 {
+    color: #7A2048;
+    font-size: 3rem;
+    margin: 70px 0 0 0;
+}
+
+.hero-accord span {
+    color: #000000;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.second-accord img {
+    width: 250px;
+    height: 300px;
+}
+
+.about-page h1 {
+    color: #7A2048;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #7A2048;
+}
+
+.skills-hero {
+    padding: 0 50px;
+}
+
+.skills-hero section {
+    height: 300px;
+}
+
+.skills-hero section ul li {
+    list-style-type: none;
+}
+
+.skills-hero section ul li span {
+    color: #7A2048;
+}
+
+#certifications ul li {
+    list-style-type: decimal;
+}
+
+.contact-hero {
+    height: 500px;
+}
+
+.contact-grid {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #408EC6;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #1E2761;
+    border: 1px solid #1E2761;
+    color: #ffffff;
+}
