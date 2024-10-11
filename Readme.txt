@@ -1,1 +1,1 @@
-U+2CE9 ⳩ COPTIC SYMBOL KHI RO in the Coptic block
+U+2CE9 ⳩ COPTIC SYMBOL KHI RO in the Coptic block.
