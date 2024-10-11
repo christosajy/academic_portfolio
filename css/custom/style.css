@@ -87,8 +87,30 @@ section {
     height: 300px;
 }
 
+.about-page {
+    margin-top: 70px;
+}
+
 .about-page h1 {
     color: #7A2048;
+}
+
+.second-edtech {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.second-edtech ul li {
+    list-style-type: none;
+}
+
+.second-edtech h3 {
+    color: #1E2761;
+}
+
+.second-edtech h5 {
+    color: #408EC6;
+    font-weight: 600;
 }
 
 .project {
@@ -142,4 +164,12 @@ footer {
     background-color: #1E2761;
     border: 1px solid #1E2761;
     color: #ffffff;
+}
+
+.list-bhide {
+    list-style-type: none;
+}
+
+.text-justify {
+    text-align: justify;
 }
